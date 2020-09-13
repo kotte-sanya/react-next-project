@@ -1,0 +1,139 @@
+/*=====================
+3. Login CSS start
+==========================*/
+
+.brand-logo {
+    padding: 40px 80px;
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+.user-registration {
+    align-items: flex-end;
+    justify-content: center;
+    width: 373px;
+    margin: 0 auto;
+    .google-login-button{
+        box-shadow: grey 1px 1px 5px;
+        transition: 0.3s ease;
+      }
+      .google-login-button:hover{
+        box-shadow: grey 0px 0px 10px;
+        transform: translate(-1px, -1px);
+      }
+      .google-login-button:active{
+        transform: translate(1px, 1px);
+      }
+    label, span {
+        font-size: 18px;
+    }
+    .title-name {
+        margin-bottom: 40px;
+        h2 {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: uppercase;
+        }
+    }
+    .custom-tab {
+        display: flex;
+        margin-bottom: 40px;
+        li {
+            display: inline-block;
+            width: 100%;
+            a {
+                font-style: normal;
+                text-decoration: none;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                border-bottom: 2px solid transparent;
+                color: $all-font-color;
+                &:hover {
+                    color: $default-color;
+                }
+                &.active {
+                    font-weight: bold;
+                    border-bottom: 2px solid $default-color;
+                }
+            }
+        }
+    }
+    .notice-text{
+      text-align: center;
+      font-size: large;
+    }
+    .forgot-text{
+        float:right;
+      }
+    .btn {
+        width: 100%;
+    }
+    .create-btn {
+        margin-top: 40px;
+        .btn {
+            margin-bottom: 24px;
+        }
+        span {
+            line-height: 150.2%;
+        }
+    }
+    h2 {
+        margin-bottom: 5px;
+    }
+    p {
+        margin-bottom: calc(30px + (40 - 30) * ((100vw - 320px) / (1920 - 320)));
+        color: $light-font;
+    }
+    a {
+        text-decoration: underline;
+    }
+    form {
+        label {
+            line-height: 22px;
+            span {
+                color: $danger;
+            }
+        }
+        .form-control {
+            background-color: transparent;
+        }
+    }
+}
+.register-page{
+    p{
+        line-height: inherit;
+    }
+}
+.logo{
+    position: fixed;
+    left: 50px;
+    top: 50px;
+  }
+.why-create {
+    width: 298px;
+    position: absolute;
+    left: 0;
+    top: 38%;
+    padding-left: 80px;
+    h6, p {
+        color: rgba(65, 64, 66, 0.75);
+    }
+    h6 {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    p {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+/*=====================
+3. Login CSS end
+==========================*/

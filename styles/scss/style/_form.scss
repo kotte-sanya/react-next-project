@@ -1,0 +1,23 @@
+/*=====================
+2. Form CSS start
+==========================*/
+form {
+    &.form-common {
+        .form-control {
+            border: 1px solid $border-color;
+            border-radius: 4px;
+            font-size: 18px;
+            padding: 9px 8px 5px;
+            &:focus {
+                border-color: $default-color;
+            }
+            &::placeholder {
+                font-size: 18px;
+                color: $border-color;
+            }
+        }
+    }
+}
+/*=====================
+2. Form CSS end
+==========================*/
